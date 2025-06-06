@@ -14,10 +14,7 @@ const WelcomeMessage = () => {
         Здесь будет отображаться ваш проект
       </p>
 
-      {/* Neon button */}
-      <button className="px-8 py-4 bg-transparent border-2 border-purple-500 text-purple-400 font-semibold rounded-lg hover:bg-purple-500 hover:text-white transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/50 hover:scale-105">
-        НАЧАТЬ
-      </button>
+      <div className="mt-8 w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto rounded-full shadow-lg shadow-purple-500/50"></div>
 
       <div className="mt-8 w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto rounded-full shadow-lg shadow-purple-500/50"></div>
     </div>
